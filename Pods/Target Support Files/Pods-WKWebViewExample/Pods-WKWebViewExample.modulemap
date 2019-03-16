@@ -1,0 +1,6 @@
+framework module Pods_WKWebViewExample {
+  umbrella header "Pods-WKWebViewExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18103DD8223A0CB10003D245 /* AlwaysPresentAsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18103DD7223A0CB10003D245 /* AlwaysPresentAsPopover.swift */; };
+		18103DDA223A1FEB0003D245 /* TeamGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18103DD9223A1FEB0003D245 /* TeamGameViewController.swift */; };
+		18103DDC223A20110003D245 /* TeamGameTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18103DDB223A20110003D245 /* TeamGameTableView.swift */; };
+		18103DDE223A203C0003D245 /* TeamGameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18103DDD223A203C0003D245 /* TeamGameTableViewCell.swift */; };
+		18103DE0223A28000003D245 /* ObjectGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18103DDF223A28000003D245 /* ObjectGame.swift */; };
+		18103DE2223A44CC0003D245 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18103DE1223A44CC0003D245 /* PlayerDetailViewController.swift */; };
 		186731B12233B4C30062536F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186731B02233B4C30062536F /* AppDelegate.swift */; };
 		186731B32233B4C30062536F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186731B22233B4C30062536F /* ViewController.swift */; };
 		186731B62233B4C30062536F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186731B42233B4C30062536F /* Main.storyboard */; };
@@ -14,6 +20,43 @@
 		186731BB2233B4C40062536F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186731B92233B4C40062536F /* LaunchScreen.storyboard */; };
 		186731C62233B4C40062536F /* WKWebViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186731C52233B4C40062536F /* WKWebViewExampleTests.swift */; };
 		186731D12233B4C40062536F /* WKWebViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186731D02233B4C40062536F /* WKWebViewExampleUITests.swift */; };
+		189725052235FB9800EA03D9 /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189725042235FB9800EA03D9 /* AnnouncementViewController.swift */; };
+		1897250F2236402B00EA03D9 /* ObjectTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897250E2236402B00EA03D9 /* ObjectTeam.swift */; };
+		1897251322364BC700EA03D9 /* WebKitTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897251222364BC700EA03D9 /* WebKitTeamViewController.swift */; };
+		1897251522364EF900EA03D9 /* TeamTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897251422364EF900EA03D9 /* TeamTableView.swift */; };
+		1897251722364F0B00EA03D9 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897251622364F0B00EA03D9 /* TeamTableViewCell.swift */; };
+		189725192236537000EA03D9 /* SwipeGestureRecognizerClosureWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189725182236537000EA03D9 /* SwipeGestureRecognizerClosureWrapper.swift */; };
+		1897251B2236538000EA03D9 /* ClosureWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897251A2236538000EA03D9 /* ClosureWrapper.swift */; };
+		1897251D2236551F00EA03D9 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897251C2236551F00EA03D9 /* Tools.swift */; };
+		1897251F2236564200EA03D9 /* TeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897251E2236564200EA03D9 /* TeamViewController.swift */; };
+		1897252122365B8300EA03D9 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897252022365B8300EA03D9 /* PlayerViewController.swift */; };
+		1897252322365B9E00EA03D9 /* PlayerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897252222365B9E00EA03D9 /* PlayerTableView.swift */; };
+		1897252522365BAF00EA03D9 /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1897252422365BAF00EA03D9 /* PlayerTableViewCell.swift */; };
+		18972527223669BC00EA03D9 /* ObjectPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18972526223669BC00EA03D9 /* ObjectPlayer.swift */; };
+		189725292236988400EA03D9 /* ObjectMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189725282236988400EA03D9 /* ObjectMatch.swift */; };
+		189B8250223A04DD004C580C /* TeamMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B824F223A04DD004C580C /* TeamMatchTableViewCell.swift */; };
+		189B8252223A0525004C580C /* TeamMatchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B8251223A0525004C580C /* TeamMatchTableView.swift */; };
+		189B8254223A055C004C580C /* TeamMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B8253223A055C004C580C /* TeamMatchViewController.swift */; };
+		18A19C48223BC99600EDD648 /* JPushKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A19C47223BC99500EDD648 /* JPushKeys.swift */; };
+		18DBAEB9223769B400E6F83F /* NewMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEB8223769B400E6F83F /* NewMatchViewController.swift */; };
+		18DBAEBB223769D300E6F83F /* NewMatchTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEBA223769D300E6F83F /* NewMatchTableView.swift */; };
+		18DBAEBD223769E900E6F83F /* NewMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEBC223769E900E6F83F /* NewMatchTableViewCell.swift */; };
+		18DBAEBF2237908100E6F83F /* ObjectNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEBE2237908100E6F83F /* ObjectNews.swift */; };
+		18DBAEC12237A61600E6F83F /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEC02237A61600E6F83F /* NewsViewController.swift */; };
+		18DBAEC32237A63200E6F83F /* NewsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEC22237A63200E6F83F /* NewsTableView.swift */; };
+		18DBAEC52237A64500E6F83F /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEC42237A64500E6F83F /* NewsTableViewCell.swift */; };
+		18DBAEC72237AC3200E6F83F /* HtmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEC62237AC3200E6F83F /* HtmlViewController.swift */; };
+		18DBAEC92237DDC500E6F83F /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAEC82237DDC500E6F83F /* PictureViewController.swift */; };
+		18DBAECB2237DDE200E6F83F /* PictureTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAECA2237DDE200E6F83F /* PictureTableView.swift */; };
+		18DBAECD2237DDF600E6F83F /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAECC2237DDF600E6F83F /* PictureTableViewCell.swift */; };
+		18DBAECF2237E16A00E6F83F /* ObjectPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAECE2237E16A00E6F83F /* ObjectPicture.swift */; };
+		18DBAED12237E91D00E6F83F /* PictureDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAED02237E91D00E6F83F /* PictureDetailTableViewCell.swift */; };
+		18DBAED32237E93500E6F83F /* PictureDetailTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAED22237E93500E6F83F /* PictureDetailTableView.swift */; };
+		18DBAED52237E94F00E6F83F /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAED42237E94F00E6F83F /* PictureDetailViewController.swift */; };
+		18DBAED72238B0B800E6F83F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBAED62238B0B800E6F83F /* MainViewController.swift */; };
+		38C2203CF7AABBF739E6F675 /* Pods_WKWebViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F8FE31E38D04761EAF655D /* Pods_WKWebViewExampleTests.framework */; };
+		6F50D77E2E7A111296ECD7B6 /* Pods_WKWebViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A70385A4F17F4FC65EE5F6 /* Pods_WKWebViewExample.framework */; };
+		803AD0E960AD0B0CE0EB163F /* Pods_WKWebViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4F436F9729EE13480F5771 /* Pods_WKWebViewExampleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +77,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18103DD7223A0CB10003D245 /* AlwaysPresentAsPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlwaysPresentAsPopover.swift; sourceTree = "<group>"; };
+		18103DD9223A1FEB0003D245 /* TeamGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamGameViewController.swift; sourceTree = "<group>"; };
+		18103DDB223A20110003D245 /* TeamGameTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamGameTableView.swift; sourceTree = "<group>"; };
+		18103DDD223A203C0003D245 /* TeamGameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamGameTableViewCell.swift; sourceTree = "<group>"; };
+		18103DDF223A28000003D245 /* ObjectGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectGame.swift; sourceTree = "<group>"; };
+		18103DE1223A44CC0003D245 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
 		186731AD2233B4C30062536F /* WKWebViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186731B02233B4C30062536F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		186731B22233B4C30062536F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +96,51 @@
 		186731CC2233B4C40062536F /* WKWebViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186731D02233B4C40062536F /* WKWebViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewExampleUITests.swift; sourceTree = "<group>"; };
 		186731D22233B4C40062536F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189725042235FB9800EA03D9 /* AnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; };
+		1897250E2236402B00EA03D9 /* ObjectTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectTeam.swift; sourceTree = "<group>"; };
+		1897251222364BC700EA03D9 /* WebKitTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitTeamViewController.swift; sourceTree = "<group>"; };
+		1897251422364EF900EA03D9 /* TeamTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableView.swift; sourceTree = "<group>"; };
+		1897251622364F0B00EA03D9 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		189725182236537000EA03D9 /* SwipeGestureRecognizerClosureWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeGestureRecognizerClosureWrapper.swift; sourceTree = "<group>"; };
+		1897251A2236538000EA03D9 /* ClosureWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureWrapper.swift; sourceTree = "<group>"; };
+		1897251C2236551F00EA03D9 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		1897251E2236564200EA03D9 /* TeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewController.swift; sourceTree = "<group>"; };
+		1897252022365B8300EA03D9 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		1897252222365B9E00EA03D9 /* PlayerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableView.swift; sourceTree = "<group>"; };
+		1897252422365BAF00EA03D9 /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		18972526223669BC00EA03D9 /* ObjectPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectPlayer.swift; sourceTree = "<group>"; };
+		189725282236988400EA03D9 /* ObjectMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMatch.swift; sourceTree = "<group>"; };
+		189B824F223A04DD004C580C /* TeamMatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMatchTableViewCell.swift; sourceTree = "<group>"; };
+		189B8251223A0525004C580C /* TeamMatchTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMatchTableView.swift; sourceTree = "<group>"; };
+		189B8253223A055C004C580C /* TeamMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMatchViewController.swift; sourceTree = "<group>"; };
+		18A19C42223BBD6800EDD648 /* WKWebViewExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WKWebViewExample.entitlements; sourceTree = "<group>"; };
+		18A19C46223BC71200EDD648 /* CBAScore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBAScore-Bridging-Header.h"; sourceTree = "<group>"; };
+		18A19C47223BC99500EDD648 /* JPushKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPushKeys.swift; sourceTree = "<group>"; };
+		18DBAEB8223769B400E6F83F /* NewMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMatchViewController.swift; sourceTree = "<group>"; };
+		18DBAEBA223769D300E6F83F /* NewMatchTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMatchTableView.swift; sourceTree = "<group>"; };
+		18DBAEBC223769E900E6F83F /* NewMatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMatchTableViewCell.swift; sourceTree = "<group>"; };
+		18DBAEBE2237908100E6F83F /* ObjectNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectNews.swift; sourceTree = "<group>"; };
+		18DBAEC02237A61600E6F83F /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		18DBAEC22237A63200E6F83F /* NewsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableView.swift; sourceTree = "<group>"; };
+		18DBAEC42237A64500E6F83F /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		18DBAEC62237AC3200E6F83F /* HtmlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlViewController.swift; sourceTree = "<group>"; };
+		18DBAEC82237DDC500E6F83F /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		18DBAECA2237DDE200E6F83F /* PictureTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableView.swift; sourceTree = "<group>"; };
+		18DBAECC2237DDF600E6F83F /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		18DBAECE2237E16A00E6F83F /* ObjectPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectPicture.swift; sourceTree = "<group>"; };
+		18DBAED02237E91D00E6F83F /* PictureDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailTableViewCell.swift; sourceTree = "<group>"; };
+		18DBAED22237E93500E6F83F /* PictureDetailTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailTableView.swift; sourceTree = "<group>"; };
+		18DBAED42237E94F00E6F83F /* PictureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
+		18DBAED62238B0B800E6F83F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1C5F7F6923AA6EF74909449C /* Pods-WKWebViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-WKWebViewExampleUITests/Pods-WKWebViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25F8FE31E38D04761EAF655D /* Pods_WKWebViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4F436F9729EE13480F5771 /* Pods_WKWebViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B96EDA7EAEF0D8588D4DF3E /* Pods-WKWebViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewExample.debug.xcconfig"; path = "Target Support Files/Pods-WKWebViewExample/Pods-WKWebViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7C32E7F34A1B2123CBD02A03 /* Pods-WKWebViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewExample.release.xcconfig"; path = "Target Support Files/Pods-WKWebViewExample/Pods-WKWebViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		82052A15FB47144CC3FE34F5 /* Pods-WKWebViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-WKWebViewExampleUITests/Pods-WKWebViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE49C1CC7C42117F74523D8 /* Pods-WKWebViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewExampleTests.release.xcconfig"; path = "Target Support Files/Pods-WKWebViewExampleTests/Pods-WKWebViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8A70385A4F17F4FC65EE5F6 /* Pods_WKWebViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKWebViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26AE5FBA87D6C7E3287ED86 /* Pods-WKWebViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-WKWebViewExampleTests/Pods-WKWebViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F50D77E2E7A111296ECD7B6 /* Pods_WKWebViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C2203CF7AABBF739E6F675 /* Pods_WKWebViewExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +164,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803AD0E960AD0B0CE0EB163F /* Pods_WKWebViewExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16C7A0F366022376D8449B6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A70385A4F17F4FC65EE5F6 /* Pods_WKWebViewExample.framework */,
+				25F8FE31E38D04761EAF655D /* Pods_WKWebViewExampleTests.framework */,
+				3F4F436F9729EE13480F5771 /* Pods_WKWebViewExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		186731A42233B4C30062536F = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +188,8 @@
 				186731C42233B4C40062536F /* WKWebViewExampleTests */,
 				186731CF2233B4C40062536F /* WKWebViewExampleUITests */,
 				186731AE2233B4C30062536F /* Products */,
+				21B3FD63550D64976BFFBFFF /* Pods */,
+				16C7A0F366022376D8449B6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +206,54 @@
 		186731AF2233B4C30062536F /* WKWebViewExample */ = {
 			isa = PBXGroup;
 			children = (
-				186731B02233B4C30062536F /* AppDelegate.swift */,
-				186731B22233B4C30062536F /* ViewController.swift */,
-				186731B42233B4C30062536F /* Main.storyboard */,
+				18A19C42223BBD6800EDD648 /* WKWebViewExample.entitlements */,
+				1897251222364BC700EA03D9 /* WebKitTeamViewController.swift */,
+				189725042235FB9800EA03D9 /* AnnouncementViewController.swift */,
+				189725182236537000EA03D9 /* SwipeGestureRecognizerClosureWrapper.swift */,
+				1897251A2236538000EA03D9 /* ClosureWrapper.swift */,
+				1897251C2236551F00EA03D9 /* Tools.swift */,
 				186731B72233B4C40062536F /* Assets.xcassets */,
 				186731B92233B4C40062536F /* LaunchScreen.storyboard */,
+				186731B42233B4C30062536F /* Main.storyboard */,
 				186731BC2233B4C40062536F /* Info.plist */,
+				186731B02233B4C30062536F /* AppDelegate.swift */,
+				18A19C47223BC99500EDD648 /* JPushKeys.swift */,
+				1897250E2236402B00EA03D9 /* ObjectTeam.swift */,
+				18DBAEBE2237908100E6F83F /* ObjectNews.swift */,
+				18972526223669BC00EA03D9 /* ObjectPlayer.swift */,
+				189725282236988400EA03D9 /* ObjectMatch.swift */,
+				18DBAECE2237E16A00E6F83F /* ObjectPicture.swift */,
+				18103DDF223A28000003D245 /* ObjectGame.swift */,
+				186731B22233B4C30062536F /* ViewController.swift */,
+				18DBAED62238B0B800E6F83F /* MainViewController.swift */,
+				1897251E2236564200EA03D9 /* TeamViewController.swift */,
+				1897251422364EF900EA03D9 /* TeamTableView.swift */,
+				1897251622364F0B00EA03D9 /* TeamTableViewCell.swift */,
+				1897252022365B8300EA03D9 /* PlayerViewController.swift */,
+				1897252222365B9E00EA03D9 /* PlayerTableView.swift */,
+				1897252422365BAF00EA03D9 /* PlayerTableViewCell.swift */,
+				18DBAEB8223769B400E6F83F /* NewMatchViewController.swift */,
+				18DBAEBA223769D300E6F83F /* NewMatchTableView.swift */,
+				18DBAEBC223769E900E6F83F /* NewMatchTableViewCell.swift */,
+				18DBAEC02237A61600E6F83F /* NewsViewController.swift */,
+				18DBAEC22237A63200E6F83F /* NewsTableView.swift */,
+				18DBAEC42237A64500E6F83F /* NewsTableViewCell.swift */,
+				18DBAEC82237DDC500E6F83F /* PictureViewController.swift */,
+				18DBAECA2237DDE200E6F83F /* PictureTableView.swift */,
+				18DBAECC2237DDF600E6F83F /* PictureTableViewCell.swift */,
+				18DBAED42237E94F00E6F83F /* PictureDetailViewController.swift */,
+				18DBAED22237E93500E6F83F /* PictureDetailTableView.swift */,
+				18DBAED02237E91D00E6F83F /* PictureDetailTableViewCell.swift */,
+				18DBAEC62237AC3200E6F83F /* HtmlViewController.swift */,
+				189B8253223A055C004C580C /* TeamMatchViewController.swift */,
+				189B8251223A0525004C580C /* TeamMatchTableView.swift */,
+				189B824F223A04DD004C580C /* TeamMatchTableViewCell.swift */,
+				18103DD7223A0CB10003D245 /* AlwaysPresentAsPopover.swift */,
+				18103DD9223A1FEB0003D245 /* TeamGameViewController.swift */,
+				18103DDB223A20110003D245 /* TeamGameTableView.swift */,
+				18103DDD223A203C0003D245 /* TeamGameTableViewCell.swift */,
+				18103DE1223A44CC0003D245 /* PlayerDetailViewController.swift */,
+				18A19C46223BC71200EDD648 /* CBAScore-Bridging-Header.h */,
 			);
 			path = WKWebViewExample;
 			sourceTree = "<group>";
@@ -125,6 +276,19 @@
 			path = WKWebViewExampleUITests;
 			sourceTree = "<group>";
 		};
+		21B3FD63550D64976BFFBFFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B96EDA7EAEF0D8588D4DF3E /* Pods-WKWebViewExample.debug.xcconfig */,
+				7C32E7F34A1B2123CBD02A03 /* Pods-WKWebViewExample.release.xcconfig */,
+				F26AE5FBA87D6C7E3287ED86 /* Pods-WKWebViewExampleTests.debug.xcconfig */,
+				8DE49C1CC7C42117F74523D8 /* Pods-WKWebViewExampleTests.release.xcconfig */,
+				82052A15FB47144CC3FE34F5 /* Pods-WKWebViewExampleUITests.debug.xcconfig */,
+				1C5F7F6923AA6EF74909449C /* Pods-WKWebViewExampleUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186731D52233B4C40062536F /* Build configuration list for PBXNativeTarget "WKWebViewExample" */;
 			buildPhases = (
+				3D6FE451BEC892A470D3B2CC /* [CP] Check Pods Manifest.lock */,
 				186731A92233B4C30062536F /* Sources */,
 				186731AA2233B4C30062536F /* Frameworks */,
 				186731AB2233B4C30062536F /* Resources */,
+				9E815C136181C3E807615724 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +315,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186731D82233B4C40062536F /* Build configuration list for PBXNativeTarget "WKWebViewExampleTests" */;
 			buildPhases = (
+				19AF267AF48E0D6FB3B42113 /* [CP] Check Pods Manifest.lock */,
 				186731BD2233B4C40062536F /* Sources */,
 				186731BE2233B4C40062536F /* Frameworks */,
 				186731BF2233B4C40062536F /* Resources */,
@@ -167,6 +334,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 186731DB2233B4C40062536F /* Build configuration list for PBXNativeTarget "WKWebViewExampleUITests" */;
 			buildPhases = (
+				F8B38301F3FE1D3A455D23C2 /* [CP] Check Pods Manifest.lock */,
 				186731C82233B4C40062536F /* Sources */,
 				186731C92233B4C40062536F /* Frameworks */,
 				186731CA2233B4C40062536F /* Resources */,
@@ -193,6 +361,11 @@
 				TargetAttributes = {
 					186731AC2233B4C30062536F = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					186731C02233B4C40062536F = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,13 +424,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19AF267AF48E0D6FB3B42113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebViewExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D6FE451BEC892A470D3B2CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E815C136181C3E807615724 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WKWebViewExample/Pods-WKWebViewExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WKWebViewExample/Pods-WKWebViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B38301F3FE1D3A455D23C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebViewExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		186731A92233B4C30062536F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DBAEB9223769B400E6F83F /* NewMatchViewController.swift in Sources */,
+				189725292236988400EA03D9 /* ObjectMatch.swift in Sources */,
+				1897252522365BAF00EA03D9 /* PlayerTableViewCell.swift in Sources */,
+				189B8254223A055C004C580C /* TeamMatchViewController.swift in Sources */,
+				18DBAEBF2237908100E6F83F /* ObjectNews.swift in Sources */,
+				1897251322364BC700EA03D9 /* WebKitTeamViewController.swift in Sources */,
+				18103DDE223A203C0003D245 /* TeamGameTableViewCell.swift in Sources */,
+				18DBAED32237E93500E6F83F /* PictureDetailTableView.swift in Sources */,
+				1897250F2236402B00EA03D9 /* ObjectTeam.swift in Sources */,
+				18DBAEC32237A63200E6F83F /* NewsTableView.swift in Sources */,
+				18972527223669BC00EA03D9 /* ObjectPlayer.swift in Sources */,
+				18DBAEC52237A64500E6F83F /* NewsTableViewCell.swift in Sources */,
+				18A19C48223BC99600EDD648 /* JPushKeys.swift in Sources */,
+				189725192236537000EA03D9 /* SwipeGestureRecognizerClosureWrapper.swift in Sources */,
 				186731B32233B4C30062536F /* ViewController.swift in Sources */,
+				18DBAEBB223769D300E6F83F /* NewMatchTableView.swift in Sources */,
+				18103DDA223A1FEB0003D245 /* TeamGameViewController.swift in Sources */,
+				18DBAED12237E91D00E6F83F /* PictureDetailTableViewCell.swift in Sources */,
+				18DBAEBD223769E900E6F83F /* NewMatchTableViewCell.swift in Sources */,
+				189B8250223A04DD004C580C /* TeamMatchTableViewCell.swift in Sources */,
+				1897251B2236538000EA03D9 /* ClosureWrapper.swift in Sources */,
+				1897252122365B8300EA03D9 /* PlayerViewController.swift in Sources */,
+				18DBAED52237E94F00E6F83F /* PictureDetailViewController.swift in Sources */,
+				18DBAEC72237AC3200E6F83F /* HtmlViewController.swift in Sources */,
+				189725052235FB9800EA03D9 /* AnnouncementViewController.swift in Sources */,
+				1897251722364F0B00EA03D9 /* TeamTableViewCell.swift in Sources */,
+				1897251522364EF900EA03D9 /* TeamTableView.swift in Sources */,
+				18DBAEC92237DDC500E6F83F /* PictureViewController.swift in Sources */,
+				18103DE0223A28000003D245 /* ObjectGame.swift in Sources */,
+				189B8252223A0525004C580C /* TeamMatchTableView.swift in Sources */,
+				18DBAED72238B0B800E6F83F /* MainViewController.swift in Sources */,
 				186731B12233B4C30062536F /* AppDelegate.swift in Sources */,
+				18DBAECF2237E16A00E6F83F /* ObjectPicture.swift in Sources */,
+				1897251F2236564200EA03D9 /* TeamViewController.swift in Sources */,
+				18103DE2223A44CC0003D245 /* PlayerDetailViewController.swift in Sources */,
+				18DBAECB2237DDE200E6F83F /* PictureTableView.swift in Sources */,
+				18DBAECD2237DDF600E6F83F /* PictureTableViewCell.swift in Sources */,
+				18103DDC223A20110003D245 /* TeamGameTableView.swift in Sources */,
+				18DBAEC12237A61600E6F83F /* NewsViewController.swift in Sources */,
+				1897252322365B9E00EA03D9 /* PlayerTableView.swift in Sources */,
+				1897251D2236551F00EA03D9 /* Tools.swift in Sources */,
+				18103DD8223A0CB10003D245 /* AlwaysPresentAsPopover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,16 +734,31 @@
 		};
 		186731D62233B4C40062536F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B96EDA7EAEF0D8588D4DF3E /* Pods-WKWebViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WKWebViewExample/WKWebViewExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G45FU9QDB;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kanna/Kanna.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/JPush\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = WKWebViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftexample.ios.WKWebViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvp.cbascore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/WKWebViewExample/WKWebViewExample/WKWebViewExample/CBAScore-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,16 +766,31 @@
 		};
 		186731D72233B4C40062536F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C32E7F34A1B2123CBD02A03 /* Pods-WKWebViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WKWebViewExample/WKWebViewExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G45FU9QDB;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kanna/Kanna.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/JAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/JPush\"",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = WKWebViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.swiftexample.ios.WKWebViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvp.cbascore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Desktop/WKWebViewExample/WKWebViewExample/WKWebViewExample/CBAScore-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +798,7 @@
 		};
 		186731D92233B4C40062536F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26AE5FBA87D6C7E3287ED86 /* Pods-WKWebViewExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +819,7 @@
 		};
 		186731DA2233B4C40062536F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE49C1CC7C42117F74523D8 /* Pods-WKWebViewExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +840,7 @@
 		};
 		186731DC2233B4C40062536F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82052A15FB47144CC3FE34F5 /* Pods-WKWebViewExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +860,7 @@
 		};
 		186731DD2233B4C40062536F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5F7F6923AA6EF74909449C /* Pods-WKWebViewExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
